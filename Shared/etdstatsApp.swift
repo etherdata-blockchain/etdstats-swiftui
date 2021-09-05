@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct etdstatsApp: App {
+    @StateObject var etdStatsModel: ETDStatsModel = ETDStatsModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(etdStatsModel)
         }
     }
 }

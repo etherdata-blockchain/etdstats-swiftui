@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,29 @@
 		DF8E743226DE29F300E23C7B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E743126DE29F300E23C7B /* Tests_macOS.swift */; };
 		DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */; };
 		DF8E743526DE29F300E23C7B /* etdstatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */; };
-		DF8E743626DE29F300E23C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740C26DE29F200E23C7B /* ContentView.swift */; };
-		DF8E743726DE29F300E23C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740C26DE29F200E23C7B /* ContentView.swift */; };
+		DF8E743626DE29F300E23C7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740C26DE29F200E23C7B /* HomeView.swift */; };
+		DF8E743726DE29F300E23C7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740C26DE29F200E23C7B /* HomeView.swift */; };
 		DF8E743826DE29F300E23C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8E740D26DE29F300E23C7B /* Assets.xcassets */; };
 		DF8E743926DE29F300E23C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8E740D26DE29F300E23C7B /* Assets.xcassets */; };
+		DF8E744B26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E744A26DE2B0600E23C7B /* ETDStatsModel.swift */; };
+		DF8E744C26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E744A26DE2B0600E23C7B /* ETDStatsModel.swift */; };
+		DF8E745A26DE7E9800E23C7B /* webThreeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E745926DE7E9800E23C7B /* webThreeData.swift */; };
+		DF8E745B26DE7E9800E23C7B /* webThreeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E745926DE7E9800E23C7B /* webThreeData.swift */; };
+		DF8E745E26DE88CC00E23C7B /* DataDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E745D26DE88CC00E23C7B /* DataDisplay.swift */; };
+		DF8E745F26DE88CC00E23C7B /* DataDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E745D26DE88CC00E23C7B /* DataDisplay.swift */; };
+		DF8E746126DF589F00E23C7B /* peerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746026DF589F00E23C7B /* peerInfo.swift */; };
+		DF8E746226DF589F00E23C7B /* peerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746026DF589F00E23C7B /* peerInfo.swift */; };
+		DF8E746426DF615900E23C7B /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746326DF615900E23C7B /* ListItem.swift */; };
+		DF8E746526DF615900E23C7B /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746326DF615900E23C7B /* ListItem.swift */; };
+		DF8E746826DFB50400E23C7B /* HomeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746726DFB50400E23C7B /* HomeMainView.swift */; };
+		DF8E746926DFB50400E23C7B /* HomeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746726DFB50400E23C7B /* HomeMainView.swift */; };
+		DF8E746B26DFB64800E23C7B /* HomeSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */; };
+		DF8E746C26DFB64800E23C7B /* HomeSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */; };
+		DF8E746F26DFC0C200E23C7B /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E746E26DFC0C200E23C7B /* SocketIO */; };
+		DF8E747226E4A58200E23C7B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E747126E4A58200E23C7B /* SwiftUICharts */; };
+		DF8E747426E4A59100E23C7B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E747326E4A59100E23C7B /* SwiftUICharts */; };
+		DF8E747626E4A8BE00E23C7B /* ChartDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */; };
+		DF8E747726E4A8BE00E23C7B /* ChartDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstatsApp.swift; sourceTree = "<group>"; };
-		DF8E740C26DE29F200E23C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF8E740C26DE29F200E23C7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DF8E740D26DE29F300E23C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8E741226DE29F300E23C7B /* etdstats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = etdstats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8E741526DE29F300E23C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +68,15 @@
 		DF8E742D26DE29F300E23C7B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8E743126DE29F300E23C7B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		DF8E743326DE29F300E23C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8E744826DE2A0800E23C7B /* etdstats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = etdstats.entitlements; sourceTree = "<group>"; };
+		DF8E744A26DE2B0600E23C7B /* ETDStatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETDStatsModel.swift; sourceTree = "<group>"; };
+		DF8E745926DE7E9800E23C7B /* webThreeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webThreeData.swift; sourceTree = "<group>"; };
+		DF8E745D26DE88CC00E23C7B /* DataDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDisplay.swift; sourceTree = "<group>"; };
+		DF8E746026DF589F00E23C7B /* peerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peerInfo.swift; sourceTree = "<group>"; };
+		DF8E746326DF615900E23C7B /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		DF8E746726DFB50400E23C7B /* HomeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainView.swift; sourceTree = "<group>"; };
+		DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSidebar.swift; sourceTree = "<group>"; };
+		DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8E747226E4A58200E23C7B /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8E746F26DFC0C200E23C7B /* SocketIO in Frameworks */,
+				DF8E747426E4A59100E23C7B /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +117,25 @@
 		DF8E740526DE29F200E23C7B = {
 			isa = PBXGroup;
 			children = (
+				DF8E744826DE2A0800E23C7B /* etdstats.entitlements */,
 				DF8E740A26DE29F200E23C7B /* Shared */,
 				DF8E741426DE29F300E23C7B /* iOS */,
 				DF8E741B26DE29F300E23C7B /* macOS */,
 				DF8E742526DE29F300E23C7B /* Tests iOS */,
 				DF8E743026DE29F300E23C7B /* Tests macOS */,
 				DF8E741326DE29F300E23C7B /* Products */,
+				DF8E745326DE37FF00E23C7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DF8E740A26DE29F200E23C7B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DF8E745C26DE88BE00E23C7B /* views */,
+				DF8E745826DE7D4800E23C7B /* data */,
+				DF8E744926DE2AEF00E23C7B /* models */,
 				DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */,
-				DF8E740C26DE29F200E23C7B /* ContentView.swift */,
+				DF8E740C26DE29F200E23C7B /* HomeView.swift */,
 				DF8E740D26DE29F300E23C7B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +187,50 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		DF8E744926DE2AEF00E23C7B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E744A26DE2B0600E23C7B /* ETDStatsModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DF8E745326DE37FF00E23C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF8E745826DE7D4800E23C7B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E745926DE7E9800E23C7B /* webThreeData.swift */,
+				DF8E746026DF589F00E23C7B /* peerInfo.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DF8E745C26DE88BE00E23C7B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E746626DFB4F500E23C7B /* home */,
+				DF8E745D26DE88CC00E23C7B /* DataDisplay.swift */,
+				DF8E746326DF615900E23C7B /* ListItem.swift */,
+				DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DF8E746626DFB4F500E23C7B /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E746726DFB50400E23C7B /* HomeMainView.swift */,
+				DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +247,9 @@
 			dependencies = (
 			);
 			name = "etdstats (iOS)";
+			packageProductDependencies = (
+				DF8E747126E4A58200E23C7B /* SwiftUICharts */,
+			);
 			productName = "etdstats (iOS)";
 			productReference = DF8E741226DE29F300E23C7B /* etdstats.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +267,10 @@
 			dependencies = (
 			);
 			name = "etdstats (macOS)";
+			packageProductDependencies = (
+				DF8E746E26DFC0C200E23C7B /* SocketIO */,
+				DF8E747326E4A59100E23C7B /* SwiftUICharts */,
+			);
 			productName = "etdstats (macOS)";
 			productReference = DF8E741A26DE29F300E23C7B /* etdstats.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +345,10 @@
 				Base,
 			);
 			mainGroup = DF8E740526DE29F200E23C7B;
+			packageReferences = (
+				DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */,
+				DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = DF8E741326DE29F300E23C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,8 +399,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8E743626DE29F300E23C7B /* ContentView.swift in Sources */,
+				DF8E744B26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */,
+				DF8E746426DF615900E23C7B /* ListItem.swift in Sources */,
+				DF8E745A26DE7E9800E23C7B /* webThreeData.swift in Sources */,
+				DF8E745E26DE88CC00E23C7B /* DataDisplay.swift in Sources */,
+				DF8E746126DF589F00E23C7B /* peerInfo.swift in Sources */,
+				DF8E746826DFB50400E23C7B /* HomeMainView.swift in Sources */,
+				DF8E743626DE29F300E23C7B /* HomeView.swift in Sources */,
+				DF8E746B26DFB64800E23C7B /* HomeSidebar.swift in Sources */,
 				DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */,
+				DF8E747626E4A8BE00E23C7B /* ChartDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +416,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8E743726DE29F300E23C7B /* ContentView.swift in Sources */,
+				DF8E744C26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */,
+				DF8E746526DF615900E23C7B /* ListItem.swift in Sources */,
+				DF8E745B26DE7E9800E23C7B /* webThreeData.swift in Sources */,
+				DF8E745F26DE88CC00E23C7B /* DataDisplay.swift in Sources */,
+				DF8E746226DF589F00E23C7B /* peerInfo.swift in Sources */,
+				DF8E746926DFB50400E23C7B /* HomeMainView.swift in Sources */,
+				DF8E743726DE29F300E23C7B /* HomeView.swift in Sources */,
+				DF8E746C26DFB64800E23C7B /* HomeSidebar.swift in Sources */,
 				DF8E743526DE29F300E23C7B /* etdstatsApp.swift in Sources */,
+				DF8E747726E4A8BE00E23C7B /* ChartDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = etdstats.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_PREVIEWS = YES;
@@ -479,9 +587,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstats;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios";
 				PRODUCT_NAME = etdstats;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,6 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = etdstats.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_PREVIEWS = YES;
@@ -501,9 +611,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstats;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios";
 				PRODUCT_NAME = etdstats;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -696,6 +807,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 16.0.1;
+			};
+		};
+		DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF8E746E26DFC0C200E23C7B /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+		DF8E747126E4A58200E23C7B /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		DF8E747326E4A59100E23C7B /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF8E740626DE29F200E23C7B /* Project object */;
 }
