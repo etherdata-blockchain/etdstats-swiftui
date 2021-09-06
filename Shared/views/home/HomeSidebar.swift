@@ -28,7 +28,7 @@ struct HomeSidebar: View {
                 }
             }
         }
-        .frame(width: 150)
+        .frame(minWidth: 150)
     }
 }
 

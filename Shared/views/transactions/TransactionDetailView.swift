@@ -13,32 +13,30 @@ struct TransactionDetailView: View {
     @State var isLoading: Bool = false
     
     var body: some View {
-        NavigationView {
-            VStack{
-                if isLoading{
-                    HStack{
-                        Spacer()
-                        ProgressView("Loading...")
-                        Spacer()
-                    }
-                }
-                
-                if let searchResult = searchResult{
-                    TransactionList(searchResult: searchResult)
+        VStack{
+            if isLoading{
+                HStack{
+                    Spacer()
+                    ProgressView("Loading...")
+                    Spacer()
                 }
             }
-            .frame(minWidth: 300, minHeight: 300)
-            .onAppear{
-                isLoading = true
-                ETDStatsDataFetcher.searchBy(id: id){
-                    data in
-                    if let data = data{
-                        searchResult = data
-                    }
-                    
-                    isLoading = false
-                }
+            
+            if let searchResult = searchResult{
+                TransactionList(searchResult: searchResult)
+            }
         }
+        .frame(minWidth: 300, minHeight: 300)
+        .onAppear{
+            isLoading = true
+            ETDStatsDataFetcher.searchBy(id: id){
+                data in
+                if let data = data{
+                    searchResult = data
+                }
+                
+                isLoading = false
+            }
         }
     }
 }

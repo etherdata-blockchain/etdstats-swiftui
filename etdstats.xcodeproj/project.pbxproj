@@ -11,6 +11,7 @@
 		DF19897F26E5B64D00194498 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19897D26E5B64D00194498 /* TransactionList.swift */; };
 		DF19898126E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
 		DF19898226E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
+		DF19898426E61C3C00194498 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = DF19898326E61C3C00194498 /* SocketIO */; };
 		DF8E742726DE29F300E23C7B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E742626DE29F300E23C7B /* Tests_iOS.swift */; };
 		DF8E743226DE29F300E23C7B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E743126DE29F300E23C7B /* Tests_macOS.swift */; };
 		DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */; };
@@ -100,6 +101,7 @@
 			files = (
 				DF8E747226E4A58200E23C7B /* SwiftUICharts in Frameworks */,
 				DF8E747B26E5236700E23C7B /* Alamofire in Frameworks */,
+				DF19898426E61C3C00194498 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +280,7 @@
 			packageProductDependencies = (
 				DF8E747126E4A58200E23C7B /* SwiftUICharts */,
 				DF8E747A26E5236700E23C7B /* Alamofire */,
+				DF19898326E61C3C00194498 /* SocketIO */,
 			);
 			productName = "etdstats (iOS)";
 			productReference = DF8E741226DE29F300E23C7B /* etdstats.app */;
@@ -875,6 +878,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DF19898326E61C3C00194498 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
 		DF8E746E26DFC0C200E23C7B /* SocketIO */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */;

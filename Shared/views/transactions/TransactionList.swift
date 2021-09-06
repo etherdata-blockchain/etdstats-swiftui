@@ -152,10 +152,12 @@ struct TransactionList: View {
                 Text("\(transaction.status)")
             }
             
-            HStack{
-                Text("Block")
-                Spacer()
-                Text("\(transaction.block.hash)")
+            NavigationLink(destination: TransactionDetailView(id: transaction.block.hash)){
+                HStack{
+                    Text("Block")
+                    Spacer()
+                    Text("\(transaction.block.hash)")
+                }
             }
             
             NavigationLink(destination: TransactionDetailView(id: transaction.transaction.from)){
