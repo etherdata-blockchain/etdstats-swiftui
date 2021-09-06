@@ -7,9 +7,7 @@
 
 import Foundation
 import SocketIO
-
-
-
+import Alamofire
 
 class ETDStatsModel: ObservableObject{
 //    private var manager = SocketManager(socketURL: URL(string: "ws://localhost:3000")!, config: [.log(false)])
@@ -68,5 +66,24 @@ class ETDStatsModel: ObservableObject{
         }
         
         socket.connect()
+    }
+}
+
+class ETDStatsDataFetcher{
+    
+    
+    static func searchBy(id: String, onResult: @escaping (_ data: SearchResponse? )-> Void){
+        let baseURL = "https://etd.monitor.sirileepage.com"
+        
+        AF.request(baseURL + "/api/v2/transactions/" + id).responseDecodable(of: SearchResponse.self){
+            response in
+            print("getting user: \(response)")
+            if let value = response.value{
+                onResult(value)
+            } else{
+                onResult(nil)
+            }
+        }
+        
     }
 }

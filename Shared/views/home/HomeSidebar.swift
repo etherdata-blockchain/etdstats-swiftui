@@ -13,7 +13,19 @@ struct HomeSidebar: View {
             NavigationLink(
                 destination: HomeMainView()){
                 
-                Text("ETD Stats")
+                HStack {
+                    Image(systemName: "chart.bar.xaxis")
+                    Text("ETD Stats")
+                }
+            }
+            
+            NavigationLink(
+                destination: TransactionView()){
+                
+                HStack {
+                    Image(systemName: "chart.bar.doc.horizontal.fill")
+                    Text("Transactions")
+                }
             }
         }
         .frame(width: 150)

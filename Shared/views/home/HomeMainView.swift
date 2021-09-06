@@ -13,17 +13,18 @@ struct HomeMainView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .center){
-                HStack(alignment: .center){
-                    DataDisplay(data: "\(statsModel.latestBlockInfo?.latestAvgBlockTime ?? 0.0)", description: "Block Time", unit: "seconds")
-                    Spacer()
-                    DataDisplay(data: "\(statsModel.latestBlockInfo?.latestBlockNumber ?? 0)", description: "# Blocks", unit: "number")
-                    Spacer()
-                    DataDisplay(data: "\(statsModel.latestBlockInfo?.latestDifficulty ?? 0)", description: "Difficulty", unit: "hash")
-                    Spacer()
-                    DataDisplay(data: "\(statsModel.latestBlockInfo?.networkHashRate ?? 0)", description: "HashRate", unit: "hash")
-                }
-                
                 if(statsModel.latestBlockInfo != nil){
+                    HStack(alignment: .center){
+                        DataDisplay(data: "\(statsModel.latestBlockInfo!.latestAvgBlockTime)", description: "Block Time", unit: "seconds")
+                        Spacer()
+                        DataDisplay(data: "\(statsModel.latestBlockInfo!.latestBlockNumber)", description: "# Blocks", unit: "number")
+                        Spacer()
+                        DataDisplay(data: "\(statsModel.latestBlockInfo!.latestDifficulty)", description: "Difficulty", unit: "hash")
+                        Spacer()
+                        DataDisplay(data: "\(statsModel.latestBlockInfo!.networkHashRate)", description: "HashRate", unit: "hash")
+                    }
+                
+              
                     HStack{
                             ChartDisplay(difficultyHistory: statsModel.latestBlockInfo!.difficultyHistory)
                             ChartDisplay(blockTimeHistory: statsModel.latestBlockInfo!.blockTimeHistory)
@@ -31,11 +32,15 @@ struct HomeMainView: View {
                         }
                     .frame(height: 400)
                   
-                }
+         
                 
-                HStack{
-                    Text("Last Block At \(statsModel.latestBlockInfo?.lastBlockAt ?? "")")
-                    Spacer()
+                    HStack{
+                        Text("Last Block At \(statsModel.latestBlockInfo!.lastBlockAt)")
+                        Spacer()
+                    }
+                    
+                } else {
+                    ProgressView("Connecting to the stats server...")
                 }
                 
                 

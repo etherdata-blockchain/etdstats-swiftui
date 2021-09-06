@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF19897E26E5B64D00194498 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19897D26E5B64D00194498 /* TransactionList.swift */; };
+		DF19897F26E5B64D00194498 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19897D26E5B64D00194498 /* TransactionList.swift */; };
+		DF19898126E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
+		DF19898226E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
 		DF8E742726DE29F300E23C7B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E742626DE29F300E23C7B /* Tests_iOS.swift */; };
 		DF8E743226DE29F300E23C7B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E743126DE29F300E23C7B /* Tests_macOS.swift */; };
 		DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */; };
@@ -34,6 +38,12 @@
 		DF8E747426E4A59100E23C7B /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E747326E4A59100E23C7B /* SwiftUICharts */; };
 		DF8E747626E4A8BE00E23C7B /* ChartDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */; };
 		DF8E747726E4A8BE00E23C7B /* ChartDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */; };
+		DF8E747B26E5236700E23C7B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E747A26E5236700E23C7B /* Alamofire */; };
+		DF8E747D26E5237700E23C7B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF8E747C26E5237700E23C7B /* Alamofire */; };
+		DF8E747F26E523F400E23C7B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747E26E523F400E23C7B /* Transaction.swift */; };
+		DF8E748026E523F400E23C7B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747E26E523F400E23C7B /* Transaction.swift */; };
+		DF8E748226E5265600E23C7B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E748126E5265600E23C7B /* TransactionView.swift */; };
+		DF8E748326E5265600E23C7B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E748126E5265600E23C7B /* TransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF19897D26E5B64D00194498 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		DF19898026E5E56E00194498 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
 		DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstatsApp.swift; sourceTree = "<group>"; };
 		DF8E740C26DE29F200E23C7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DF8E740D26DE29F300E23C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +89,8 @@
 		DF8E746726DFB50400E23C7B /* HomeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainView.swift; sourceTree = "<group>"; };
 		DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSidebar.swift; sourceTree = "<group>"; };
 		DF8E747526E4A8BE00E23C7B /* ChartDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDisplay.swift; sourceTree = "<group>"; };
+		DF8E747E26E523F400E23C7B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		DF8E748126E5265600E23C7B /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8E747226E4A58200E23C7B /* SwiftUICharts in Frameworks */,
+				DF8E747B26E5236700E23C7B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8E747D26E5237700E23C7B /* Alamofire in Frameworks */,
 				DF8E746F26DFC0C200E23C7B /* SocketIO in Frameworks */,
 				DF8E747426E4A59100E23C7B /* SwiftUICharts in Frameworks */,
 			);
@@ -207,6 +223,7 @@
 			children = (
 				DF8E745926DE7E9800E23C7B /* webThreeData.swift */,
 				DF8E746026DF589F00E23C7B /* peerInfo.swift */,
+				DF8E747E26E523F400E23C7B /* Transaction.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -214,6 +231,7 @@
 		DF8E745C26DE88BE00E23C7B /* views */ = {
 			isa = PBXGroup;
 			children = (
+				DF8E747826E5231700E23C7B /* transactions */,
 				DF8E746626DFB4F500E23C7B /* home */,
 				DF8E745D26DE88CC00E23C7B /* DataDisplay.swift */,
 				DF8E746326DF615900E23C7B /* ListItem.swift */,
@@ -229,6 +247,16 @@
 				DF8E746A26DFB64800E23C7B /* HomeSidebar.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		DF8E747826E5231700E23C7B /* transactions */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E748126E5265600E23C7B /* TransactionView.swift */,
+				DF19897D26E5B64D00194498 /* TransactionList.swift */,
+				DF19898026E5E56E00194498 /* TransactionDetailView.swift */,
+			);
+			path = transactions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +277,7 @@
 			name = "etdstats (iOS)";
 			packageProductDependencies = (
 				DF8E747126E4A58200E23C7B /* SwiftUICharts */,
+				DF8E747A26E5236700E23C7B /* Alamofire */,
 			);
 			productName = "etdstats (iOS)";
 			productReference = DF8E741226DE29F300E23C7B /* etdstats.app */;
@@ -270,6 +299,7 @@
 			packageProductDependencies = (
 				DF8E746E26DFC0C200E23C7B /* SocketIO */,
 				DF8E747326E4A59100E23C7B /* SwiftUICharts */,
+				DF8E747C26E5237700E23C7B /* Alamofire */,
 			);
 			productName = "etdstats (macOS)";
 			productReference = DF8E741A26DE29F300E23C7B /* etdstats.app */;
@@ -348,6 +378,7 @@
 			packageReferences = (
 				DF8E746D26DFC0C200E23C7B /* XCRemoteSwiftPackageReference "socket" */,
 				DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */,
+				DF8E747926E5236700E23C7B /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = DF8E741326DE29F300E23C7B /* Products */;
 			projectDirPath = "";
@@ -399,14 +430,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8E747F26E523F400E23C7B /* Transaction.swift in Sources */,
 				DF8E744B26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */,
 				DF8E746426DF615900E23C7B /* ListItem.swift in Sources */,
 				DF8E745A26DE7E9800E23C7B /* webThreeData.swift in Sources */,
 				DF8E745E26DE88CC00E23C7B /* DataDisplay.swift in Sources */,
+				DF8E748226E5265600E23C7B /* TransactionView.swift in Sources */,
 				DF8E746126DF589F00E23C7B /* peerInfo.swift in Sources */,
 				DF8E746826DFB50400E23C7B /* HomeMainView.swift in Sources */,
 				DF8E743626DE29F300E23C7B /* HomeView.swift in Sources */,
 				DF8E746B26DFB64800E23C7B /* HomeSidebar.swift in Sources */,
+				DF19898126E5E56E00194498 /* TransactionDetailView.swift in Sources */,
+				DF19897E26E5B64D00194498 /* TransactionList.swift in Sources */,
 				DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */,
 				DF8E747626E4A8BE00E23C7B /* ChartDisplay.swift in Sources */,
 			);
@@ -416,14 +451,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8E748026E523F400E23C7B /* Transaction.swift in Sources */,
 				DF8E744C26DE2B0600E23C7B /* ETDStatsModel.swift in Sources */,
 				DF8E746526DF615900E23C7B /* ListItem.swift in Sources */,
 				DF8E745B26DE7E9800E23C7B /* webThreeData.swift in Sources */,
 				DF8E745F26DE88CC00E23C7B /* DataDisplay.swift in Sources */,
+				DF8E748326E5265600E23C7B /* TransactionView.swift in Sources */,
 				DF8E746226DF589F00E23C7B /* peerInfo.swift in Sources */,
 				DF8E746926DFB50400E23C7B /* HomeMainView.swift in Sources */,
 				DF8E743726DE29F300E23C7B /* HomeView.swift in Sources */,
 				DF8E746C26DFB64800E23C7B /* HomeSidebar.swift in Sources */,
+				DF19898226E5E56E00194498 /* TransactionDetailView.swift in Sources */,
+				DF19897F26E5B64D00194498 /* TransactionList.swift in Sources */,
 				DF8E743526DE29F300E23C7B /* etdstatsApp.swift in Sources */,
 				DF8E747726E4A8BE00E23C7B /* ChartDisplay.swift in Sources */,
 			);
@@ -825,6 +864,14 @@
 				minimumVersion = 1.5.5;
 			};
 		};
+		DF8E747926E5236700E23C7B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -842,6 +889,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DF8E747026E4A58200E23C7B /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
+		};
+		DF8E747A26E5236700E23C7B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E747926E5236700E23C7B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DF8E747C26E5237700E23C7B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF8E747926E5236700E23C7B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
