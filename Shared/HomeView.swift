@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct HomeView: View {
     
@@ -20,6 +21,9 @@ struct HomeView: View {
             HomeSidebar()
             Text("ETD Stats")
                 .frame(width: 400, height: 400, alignment: .center)
+        }
+        .onDisappear{
+            WidgetCenter.shared.reloadAllTimelines()
         }
         .toolbar {
             #if os(macOS)

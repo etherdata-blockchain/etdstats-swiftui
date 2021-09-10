@@ -27,13 +27,14 @@ struct TransactionView: View {
         }
     }
     
-    var body: some View {
-        NavigationView {
+    
+    func buildMacOS() -> some View{
+        return  NavigationView {
             VStack(alignment:.leading){
                 HStack {
                     TextField("Transaction/User/Block ID", text: $text)
                         .frame(minWidth: 300)
-                        
+                    
                     Button(action: {
                         search()
                     }) {
@@ -41,7 +42,7 @@ struct TransactionView: View {
                     }
                     
                     Spacer()
-                   
+                    
                 }
                 .padding()
                 if(isLoading){
@@ -57,9 +58,57 @@ struct TransactionView: View {
                 }
                 
                 Spacer()
+                
             }
+            .navigationTitle(Text("Transactions"))
         }
         
+    }
+    
+    
+    func buildIOS() -> some View{
+        return
+            VStack(alignment:.leading){
+                HStack {
+                    TextField("Transaction/User/Block ID", text: $text)
+                        .frame(minWidth: 300)
+                    
+                    Button(action: {
+                        search()
+                    }) {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    
+                    Spacer()
+                    
+                }
+                .padding()
+                if(isLoading){
+                    HStack {
+                        Spacer()
+                        ProgressView("Loading...")
+                        Spacer()
+                    }
+                }
+                
+                if let searchResult = searchResult{
+                    TransactionList(searchResult: searchResult)
+                }
+                
+                Spacer()
+                
+            }
+            .navigationTitle(Text("Transactions"))
+    }
+    
+    var body: some View {
+        Group{
+            #if os(macOS)
+            buildMacOS()
+            #else
+            buildIOS()
+            #endif
+        }
     }
 }
 

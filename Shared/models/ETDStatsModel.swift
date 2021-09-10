@@ -86,4 +86,17 @@ class ETDStatsDataFetcher{
         }
         
     }
+    
+    static func getLatestInfo(onResult: @escaping (_ data: WebThreeData) -> Void){
+        let baseURL = "https://etd.monitor.sirileepage.com"
+        
+        AF.request(baseURL + "/api/v2/info").responseDecodable(of: WebThreeData.self){
+            response in
+            if let value = response.value{
+                onResult(value)
+            } else{
+                print("No Data!")
+            }
+        }
+    }
 }
