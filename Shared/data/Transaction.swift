@@ -71,6 +71,6 @@ struct SearchResponse: Codable{
 extension String{
     func toETD() -> Double{
         let value = Double(self) ?? 0
-        return value / 100000000000000000;
+        return value / 1000000000000000000;
     }
 }

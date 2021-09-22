@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  etdstats-app-clips
+//  etdstats-clips
 //
 //  Created by Qiwei Li on 9/10/21.
 //

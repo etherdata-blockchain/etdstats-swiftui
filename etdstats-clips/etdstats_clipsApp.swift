@@ -1,6 +1,6 @@
 //
-//  etdstats_app_clipsApp.swift
-//  etdstats-app-clips
+//  etdstats_clipsApp.swift
+//  etdstats-clips
 //
 //  Created by Qiwei Li on 9/10/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct etdstats_app_clipsApp: App {
+struct etdstats_clipsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

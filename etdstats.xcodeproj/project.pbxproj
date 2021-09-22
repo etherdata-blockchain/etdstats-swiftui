@@ -12,20 +12,11 @@
 		DF19898126E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
 		DF19898226E5E56E00194498 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
 		DF19898426E61C3C00194498 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = DF19898326E61C3C00194498 /* SocketIO */; };
-		DF1FC6A126EB6AD80030A17A /* etdstats_app_clipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6A026EB6AD80030A17A /* etdstats_app_clipsApp.swift */; };
-		DF1FC6A326EB6AD80030A17A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6A226EB6AD80030A17A /* ContentView.swift */; };
-		DF1FC6A526EB6ADB0030A17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC6A426EB6ADB0030A17A /* Assets.xcassets */; };
-		DF1FC6A826EB6ADB0030A17A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC6A726EB6ADB0030A17A /* Preview Assets.xcassets */; };
-		DF1FC6B426EB6ADB0030A17A /* etdstats_app_clipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6B326EB6ADB0030A17A /* etdstats_app_clipsTests.swift */; };
-		DF1FC6BF26EB6ADB0030A17A /* etdstats_app_clipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6BE26EB6ADB0030A17A /* etdstats_app_clipsUITests.swift */; };
-		DF1FC6C326EB6ADB0030A17A /* etdstats-app-clips.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF1FC69E26EB6AD80030A17A /* etdstats-app-clips.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DF1FC6CE26EB6B060030A17A /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19897D26E5B64D00194498 /* TransactionList.swift */; };
-		DF1FC6CF26EB6B060030A17A /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19898026E5E56E00194498 /* TransactionDetailView.swift */; };
-		DF1FC6D026EB6B060030A17A /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E748126E5265600E23C7B /* TransactionView.swift */; };
-		DF1FC6D126EB6B0F0030A17A /* ETDStatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E744A26DE2B0600E23C7B /* ETDStatsModel.swift */; };
-		DF1FC6D226EB6B140030A17A /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E747E26E523F400E23C7B /* Transaction.swift */; };
-		DF1FC6D326EB6B140030A17A /* peerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E746026DF589F00E23C7B /* peerInfo.swift */; };
-		DF1FC6D426EB6B140030A17A /* webThreeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E745926DE7E9800E23C7B /* webThreeData.swift */; };
+		DF1FC6E026EB71460030A17A /* etdstats_clipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6DF26EB71460030A17A /* etdstats_clipsApp.swift */; };
+		DF1FC6E226EB71460030A17A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FC6E126EB71460030A17A /* ContentView.swift */; };
+		DF1FC6E426EB71480030A17A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC6E326EB71480030A17A /* Assets.xcassets */; };
+		DF1FC6E726EB71480030A17A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC6E626EB71480030A17A /* Preview Assets.xcassets */; };
+		DF1FC6EC26EB71480030A17A /* etdstats-clips.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DF1FC6DD26EB71460030A17A /* etdstats-clips.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DF8E742726DE29F300E23C7B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E742626DE29F300E23C7B /* Tests_iOS.swift */; };
 		DF8E743226DE29F300E23C7B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E743126DE29F300E23C7B /* Tests_macOS.swift */; };
 		DF8E743426DE29F300E23C7B /* etdstatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */; };
@@ -75,26 +66,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF1FC6B026EB6ADB0030A17A /* PBXContainerItemProxy */ = {
+		DF1FC6EA26EB71480030A17A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF8E740626DE29F200E23C7B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DF1FC69D26EB6AD80030A17A;
-			remoteInfo = "etdstats-app-clips";
-		};
-		DF1FC6BB26EB6ADB0030A17A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF8E740626DE29F200E23C7B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF1FC69D26EB6AD80030A17A;
-			remoteInfo = "etdstats-app-clips";
-		};
-		DF1FC6C126EB6ADB0030A17A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF8E740626DE29F200E23C7B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF1FC69D26EB6AD80030A17A;
-			remoteInfo = "etdstats-app-clips";
+			remoteGlobalIDString = DF1FC6DC26EB71460030A17A;
+			remoteInfo = "etdstats-clips";
 		};
 		DF8E742326DE29F300E23C7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -126,7 +103,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
 			dstSubfolderSpec = 16;
 			files = (
-				DF1FC6C326EB6ADB0030A17A /* etdstats-app-clips.app in Embed App Clips */,
+				DF1FC6EC26EB71480030A17A /* etdstats-clips.app in Embed App Clips */,
 			);
 			name = "Embed App Clips";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,19 +124,13 @@
 /* Begin PBXFileReference section */
 		DF19897D26E5B64D00194498 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		DF19898026E5E56E00194498 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
-		DF1FC69E26EB6AD80030A17A /* etdstats-app-clips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "etdstats-app-clips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1FC6A026EB6AD80030A17A /* etdstats_app_clipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstats_app_clipsApp.swift; sourceTree = "<group>"; };
-		DF1FC6A226EB6AD80030A17A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DF1FC6A426EB6ADB0030A17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF1FC6A726EB6ADB0030A17A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF1FC6A926EB6ADB0030A17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF1FC6AA26EB6ADB0030A17A /* etdstats_app_clips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = etdstats_app_clips.entitlements; sourceTree = "<group>"; };
-		DF1FC6AF26EB6ADB0030A17A /* etdstats-app-clipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "etdstats-app-clipsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1FC6B326EB6ADB0030A17A /* etdstats_app_clipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstats_app_clipsTests.swift; sourceTree = "<group>"; };
-		DF1FC6B526EB6ADB0030A17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF1FC6BA26EB6ADB0030A17A /* etdstats-app-clipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "etdstats-app-clipsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1FC6BE26EB6ADB0030A17A /* etdstats_app_clipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstats_app_clipsUITests.swift; sourceTree = "<group>"; };
-		DF1FC6C026EB6ADB0030A17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1FC6DD26EB71460030A17A /* etdstats-clips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "etdstats-clips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1FC6DF26EB71460030A17A /* etdstats_clipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstats_clipsApp.swift; sourceTree = "<group>"; };
+		DF1FC6E126EB71460030A17A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF1FC6E326EB71480030A17A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1FC6E626EB71480030A17A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF1FC6E826EB71480030A17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1FC6E926EB71480030A17A /* etdstats_clips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = etdstats_clips.entitlements; sourceTree = "<group>"; };
 		DF8E740B26DE29F200E23C7B /* etdstatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etdstatsApp.swift; sourceTree = "<group>"; };
 		DF8E740C26DE29F200E23C7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DF8E740D26DE29F300E23C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -196,21 +167,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF1FC69B26EB6AD80030A17A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6AC26EB6ADB0030A17A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6B726EB6ADB0030A17A /* Frameworks */ = {
+		DF1FC6DA26EB71460030A17A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,43 +222,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF1FC69F26EB6AD80030A17A /* etdstats-app-clips */ = {
+		DF1FC6DE26EB71460030A17A /* etdstats-clips */ = {
 			isa = PBXGroup;
 			children = (
-				DF1FC6A026EB6AD80030A17A /* etdstats_app_clipsApp.swift */,
-				DF1FC6A226EB6AD80030A17A /* ContentView.swift */,
-				DF1FC6A426EB6ADB0030A17A /* Assets.xcassets */,
-				DF1FC6A926EB6ADB0030A17A /* Info.plist */,
-				DF1FC6AA26EB6ADB0030A17A /* etdstats_app_clips.entitlements */,
-				DF1FC6A626EB6ADB0030A17A /* Preview Content */,
+				DF1FC6DF26EB71460030A17A /* etdstats_clipsApp.swift */,
+				DF1FC6E126EB71460030A17A /* ContentView.swift */,
+				DF1FC6E326EB71480030A17A /* Assets.xcassets */,
+				DF1FC6E826EB71480030A17A /* Info.plist */,
+				DF1FC6E926EB71480030A17A /* etdstats_clips.entitlements */,
+				DF1FC6E526EB71480030A17A /* Preview Content */,
 			);
-			path = "etdstats-app-clips";
+			path = "etdstats-clips";
 			sourceTree = "<group>";
 		};
-		DF1FC6A626EB6ADB0030A17A /* Preview Content */ = {
+		DF1FC6E526EB71480030A17A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DF1FC6A726EB6ADB0030A17A /* Preview Assets.xcassets */,
+				DF1FC6E626EB71480030A17A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DF1FC6B226EB6ADB0030A17A /* etdstats-app-clipsTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF1FC6B326EB6ADB0030A17A /* etdstats_app_clipsTests.swift */,
-				DF1FC6B526EB6ADB0030A17A /* Info.plist */,
-			);
-			path = "etdstats-app-clipsTests";
-			sourceTree = "<group>";
-		};
-		DF1FC6BD26EB6ADB0030A17A /* etdstats-app-clipsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DF1FC6BE26EB6ADB0030A17A /* etdstats_app_clipsUITests.swift */,
-				DF1FC6C026EB6ADB0030A17A /* Info.plist */,
-			);
-			path = "etdstats-app-clipsUITests";
 			sourceTree = "<group>";
 		};
 		DF8E740526DE29F200E23C7B = {
@@ -315,9 +254,7 @@
 				DF8E742526DE29F300E23C7B /* Tests iOS */,
 				DF8E743026DE29F300E23C7B /* Tests macOS */,
 				DFC1E42B26EB1BE300DFA404 /* etdstats-widget */,
-				DF1FC69F26EB6AD80030A17A /* etdstats-app-clips */,
-				DF1FC6B226EB6ADB0030A17A /* etdstats-app-clipsTests */,
-				DF1FC6BD26EB6ADB0030A17A /* etdstats-app-clipsUITests */,
+				DF1FC6DE26EB71460030A17A /* etdstats-clips */,
 				DF8E741326DE29F300E23C7B /* Products */,
 				DF8E745326DE37FF00E23C7B /* Frameworks */,
 			);
@@ -344,9 +281,7 @@
 				DF8E742226DE29F300E23C7B /* Tests iOS.xctest */,
 				DF8E742D26DE29F300E23C7B /* Tests macOS.xctest */,
 				DFC1E42626EB1BE300DFA404 /* etdstats-widgetExtension.appex */,
-				DF1FC69E26EB6AD80030A17A /* etdstats-app-clips.app */,
-				DF1FC6AF26EB6ADB0030A17A /* etdstats-app-clipsTests.xctest */,
-				DF1FC6BA26EB6ADB0030A17A /* etdstats-app-clipsUITests.xctest */,
+				DF1FC6DD26EB71460030A17A /* etdstats-clips.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -458,58 +393,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF1FC69D26EB6AD80030A17A /* etdstats-app-clips */ = {
+		DF1FC6DC26EB71460030A17A /* etdstats-clips */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF1FC6CB26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clips" */;
+			buildConfigurationList = DF1FC6ED26EB71480030A17A /* Build configuration list for PBXNativeTarget "etdstats-clips" */;
 			buildPhases = (
-				DF1FC69A26EB6AD80030A17A /* Sources */,
-				DF1FC69B26EB6AD80030A17A /* Frameworks */,
-				DF1FC69C26EB6AD80030A17A /* Resources */,
+				DF1FC6D926EB71460030A17A /* Sources */,
+				DF1FC6DA26EB71460030A17A /* Frameworks */,
+				DF1FC6DB26EB71460030A17A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "etdstats-app-clips";
-			productName = "etdstats-app-clips";
-			productReference = DF1FC69E26EB6AD80030A17A /* etdstats-app-clips.app */;
+			name = "etdstats-clips";
+			productName = "etdstats-clips";
+			productReference = DF1FC6DD26EB71460030A17A /* etdstats-clips.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
-		};
-		DF1FC6AE26EB6ADB0030A17A /* etdstats-app-clipsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF1FC6CC26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clipsTests" */;
-			buildPhases = (
-				DF1FC6AB26EB6ADB0030A17A /* Sources */,
-				DF1FC6AC26EB6ADB0030A17A /* Frameworks */,
-				DF1FC6AD26EB6ADB0030A17A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF1FC6B126EB6ADB0030A17A /* PBXTargetDependency */,
-			);
-			name = "etdstats-app-clipsTests";
-			productName = "etdstats-app-clipsTests";
-			productReference = DF1FC6AF26EB6ADB0030A17A /* etdstats-app-clipsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DF1FC6B926EB6ADB0030A17A /* etdstats-app-clipsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF1FC6CD26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clipsUITests" */;
-			buildPhases = (
-				DF1FC6B626EB6ADB0030A17A /* Sources */,
-				DF1FC6B726EB6ADB0030A17A /* Frameworks */,
-				DF1FC6B826EB6ADB0030A17A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF1FC6BC26EB6ADB0030A17A /* PBXTargetDependency */,
-			);
-			name = "etdstats-app-clipsUITests";
-			productName = "etdstats-app-clipsUITests";
-			productReference = DF1FC6BA26EB6ADB0030A17A /* etdstats-app-clipsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		DF8E741126DE29F300E23C7B /* etdstats (iOS) */ = {
 			isa = PBXNativeTarget;
@@ -525,7 +424,7 @@
 			);
 			dependencies = (
 				DFC1E43526EB1BE500DFA404 /* PBXTargetDependency */,
-				DF1FC6C226EB6ADB0030A17A /* PBXTargetDependency */,
+				DF1FC6EB26EB71480030A17A /* PBXTargetDependency */,
 			);
 			name = "etdstats (iOS)";
 			packageProductDependencies = (
@@ -625,16 +524,8 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					DF1FC69D26EB6AD80030A17A = {
+					DF1FC6DC26EB71460030A17A = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					DF1FC6AE26EB6ADB0030A17A = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = DF1FC69D26EB6AD80030A17A;
-					};
-					DF1FC6B926EB6ADB0030A17A = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = DF1FC69D26EB6AD80030A17A;
 					};
 					DF8E741126DE29F300E23C7B = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -678,34 +569,18 @@
 				DF8E742126DE29F300E23C7B /* Tests iOS */,
 				DF8E742C26DE29F300E23C7B /* Tests macOS */,
 				DFC1E42526EB1BE300DFA404 /* etdstats-widgetExtension */,
-				DF1FC69D26EB6AD80030A17A /* etdstats-app-clips */,
-				DF1FC6AE26EB6ADB0030A17A /* etdstats-app-clipsTests */,
-				DF1FC6B926EB6ADB0030A17A /* etdstats-app-clipsUITests */,
+				DF1FC6DC26EB71460030A17A /* etdstats-clips */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF1FC69C26EB6AD80030A17A /* Resources */ = {
+		DF1FC6DB26EB71460030A17A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1FC6A826EB6ADB0030A17A /* Preview Assets.xcassets in Resources */,
-				DF1FC6A526EB6ADB0030A17A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6AD26EB6ADB0030A17A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6B826EB6ADB0030A17A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DF1FC6E726EB71480030A17A /* Preview Assets.xcassets in Resources */,
+				DF1FC6E426EB71480030A17A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,35 +625,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF1FC69A26EB6AD80030A17A /* Sources */ = {
+		DF1FC6D926EB71460030A17A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF1FC6D226EB6B140030A17A /* Transaction.swift in Sources */,
-				DF1FC6D326EB6B140030A17A /* peerInfo.swift in Sources */,
-				DF1FC6A326EB6AD80030A17A /* ContentView.swift in Sources */,
-				DF1FC6CE26EB6B060030A17A /* TransactionList.swift in Sources */,
-				DF1FC6D026EB6B060030A17A /* TransactionView.swift in Sources */,
-				DF1FC6D126EB6B0F0030A17A /* ETDStatsModel.swift in Sources */,
-				DF1FC6CF26EB6B060030A17A /* TransactionDetailView.swift in Sources */,
-				DF1FC6A126EB6AD80030A17A /* etdstats_app_clipsApp.swift in Sources */,
-				DF1FC6D426EB6B140030A17A /* webThreeData.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6AB26EB6ADB0030A17A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF1FC6B426EB6ADB0030A17A /* etdstats_app_clipsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF1FC6B626EB6ADB0030A17A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF1FC6BF26EB6ADB0030A17A /* etdstats_app_clipsUITests.swift in Sources */,
+				DF1FC6E226EB71460030A17A /* ContentView.swift in Sources */,
+				DF1FC6E026EB71460030A17A /* etdstats_clipsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,20 +709,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF1FC6B126EB6ADB0030A17A /* PBXTargetDependency */ = {
+		DF1FC6EB26EB71480030A17A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DF1FC69D26EB6AD80030A17A /* etdstats-app-clips */;
-			targetProxy = DF1FC6B026EB6ADB0030A17A /* PBXContainerItemProxy */;
-		};
-		DF1FC6BC26EB6ADB0030A17A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF1FC69D26EB6AD80030A17A /* etdstats-app-clips */;
-			targetProxy = DF1FC6BB26EB6ADB0030A17A /* PBXContainerItemProxy */;
-		};
-		DF1FC6C226EB6ADB0030A17A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF1FC69D26EB6AD80030A17A /* etdstats-app-clips */;
-			targetProxy = DF1FC6C126EB6ADB0030A17A /* PBXContainerItemProxy */;
+			target = DF1FC6DC26EB71460030A17A /* etdstats-clips */;
+			targetProxy = DF1FC6EA26EB71480030A17A /* PBXContainerItemProxy */;
 		};
 		DF8E742426DE29F300E23C7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -890,23 +732,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DF1FC6C526EB6ADB0030A17A /* Debug */ = {
+		DF1FC6EE26EB71480030A17A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "etdstats-app-clips/etdstats_app_clips.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "etdstats-clips/etdstats_clips.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"etdstats-app-clips/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"etdstats-clips/Preview Content\"";
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "etdstats-app-clips/Info.plist";
+				INFOPLIST_FILE = "etdstats-clips/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.Clip";
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsios.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -914,119 +757,28 @@
 			};
 			name = Debug;
 		};
-		DF1FC6C626EB6ADB0030A17A /* Release */ = {
+		DF1FC6EF26EB71480030A17A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "etdstats-app-clips/etdstats_app_clips.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "etdstats-clips/etdstats_clips.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"etdstats-app-clips/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"etdstats-clips/Preview Content\"";
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "etdstats-app-clips/Info.plist";
+				INFOPLIST_FILE = "etdstats-clips/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.Clip";
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsios.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DF1FC6C726EB6ADB0030A17A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9KK452K8P;
-				INFOPLIST_FILE = "etdstats-app-clipsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-app-clipsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/etdstats-app-clips.app/etdstats-app-clips";
-			};
-			name = Debug;
-		};
-		DF1FC6C826EB6ADB0030A17A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9KK452K8P;
-				INFOPLIST_FILE = "etdstats-app-clipsTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-app-clipsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/etdstats-app-clips.app/etdstats-app-clips";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DF1FC6C926EB6ADB0030A17A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9KK452K8P;
-				INFOPLIST_FILE = "etdstats-app-clipsUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-app-clipsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "etdstats-app-clips";
-			};
-			name = Debug;
-		};
-		DF1FC6CA26EB6ADB0030A17A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9KK452K8P;
-				INFOPLIST_FILE = "etdstats-app-clipsUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-app-clipsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "etdstats-app-clips";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1082,6 +834,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1135,6 +888,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1159,7 +913,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsios;
 				PRODUCT_NAME = etdstats;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
@@ -1185,7 +939,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsios;
 				PRODUCT_NAME = etdstats;
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
@@ -1212,7 +966,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstats;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsmacos;
 				PRODUCT_NAME = etdstats;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1236,7 +991,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstats;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirileepage.etdstatsmacos;
 				PRODUCT_NAME = etdstats;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -1341,13 +1097,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				INFOPLIST_FILE = "etdstats-widget/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-widget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstatsios.etdstats-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1366,13 +1122,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9KK452K8P;
 				INFOPLIST_FILE = "etdstats-widget/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstats-ios.etdstats-widget";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sirileepage.etdstatsios.etdstats-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1386,29 +1142,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF1FC6CB26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clips" */ = {
+		DF1FC6ED26EB71480030A17A /* Build configuration list for PBXNativeTarget "etdstats-clips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF1FC6C526EB6ADB0030A17A /* Debug */,
-				DF1FC6C626EB6ADB0030A17A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF1FC6CC26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clipsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF1FC6C726EB6ADB0030A17A /* Debug */,
-				DF1FC6C826EB6ADB0030A17A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF1FC6CD26EB6ADB0030A17A /* Build configuration list for PBXNativeTarget "etdstats-app-clipsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF1FC6C926EB6ADB0030A17A /* Debug */,
-				DF1FC6CA26EB6ADB0030A17A /* Release */,
+				DF1FC6EE26EB71480030A17A /* Debug */,
+				DF1FC6EF26EB71480030A17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
